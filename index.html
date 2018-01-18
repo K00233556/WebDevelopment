@@ -1,19 +1,79 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="utf-8">
-  <title>Repository</title>
-  
-
-  
-  </head>
-
+<title>P05</title>
+</head>
 <body>
+    <h1>Forms</h1><hr>
+    <h2>Activity 1: Implicit Association</h2>
+    <form>
+        <p><label>First Name:<input type="text" name="firstName" size="23"></label></p>
+        <p><label>Second Name: <input type="text" name="secondName" size="20"></label></p>
+            <input type="submit">
+     </form>
+    <h2>Activity 2: Explicit association.</h2>
+    <form>
+        <p><label for="firstName">First Name:</label><input type="text" name="firstName" id ="firstName" size="23"></p>
+       
+        <p><label>Second Name: <input type="text" name="secondName" size="20"></label></p>
+            <input type="submit">
+     </form>
+    <h2>Activity 3</h2>
+    <form>
+    <fieldset>
+        <legend>Student Information</legend>
+     <p><label>Name:<input type="text" name="name" size="23"></label></p>
+    <p><label>Mobile:<input type="number" name="mobile" size="23"></label></p>
+     <p><label>Email:<input type="email" name="email" size="23"></label></p>
+     <p><label>College Name:<input type="text area" name="area" size="50"></label></p>
+        
+     <p><label>College Address:<textarea name="area" rows="4" cols="30"></textarea></label></p>
+        <input type="submit">
+    <p><label>Year of Graduation<select name="year">
+        <option>2005</option>
+        <option>2006</option>
+        <option>2007</option>
+        <option>2008</option>
+        <option>2009</option>
+        <option>2010</option>
+        <option>2011</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option><option selected="selected">2015</option></select></label></p>
+    <p><label>Mature Student:&nbsp;&nbsp;<input type="radio" name ="matureStudent"
+                    value="mature" checked="checked">Yes</label><label><input type="radio" name ="matureStudent" 
+                    value="mature" >No</label></p>
+        
+   <p><label>Gender:&nbsp;&nbsp;<input type="radio" name ="gender"
+                    value="male">Male</label><label><input type="radio" name ="gender" 
+                    value="female" checked="checked">Female</label></p>
+        
+   <p><label>Award Type:&nbsp;&nbsp;<input type="radio" name ="type"
+                    value="type">Higher Certificate</label><label><input type="radio" name ="type" 
+                    value="type">Ordinary Degree</label><label><input type="radio" name ="type" 
+                    value="type">Honours Degree</label><label><input type="radio" name ="type" value="type">Masters</label>
+            <input type="radio" name ="type"
+                    value="type">Other (please specify)<label><input type="text" name="other" size="30"></label></p>
+            
+    
+    <p><label for="Faculty">Faculty</label></p>
+    <select name="form-faculty" id="Faculty">
+        <option>Art & Design</option>
+        <option>Applied Science</option>
+        <option>Engineering & Technology</option>
+        <option>Business & Humanities</option>
+        <option>ASET<option selected="slected">ASET</option>
+    </select>
+        <p>If you would like to receive information about current courses pease tick the appropriate boxes:</p><label><input type="checkbox" name="fine"value="art">Fine Art</label><label><input type="checkbox" name="design">Design</label><label><input type="checkbox" name="science">Science</label><label><input type="checkbox" name="Engineering">Engineering</label><label><input type="checkbox" name="it">IT</label><label><input type="checkbox" name="business">Business</label><label><input type="checkbox" name="humanities">Humanities</label><label><input type="checkbox" name="quantity" value="surveying">/Quantity Surveying</label>
+     <p><label><input type="submit"></label></p>   
+      
+    </fieldset>
+    </form>
 
-  <p>Hello, my first repository!</p>
-<p>Hope the second one is going to be much easier</p>
-  
+
+
 </body>
-
-</html>cd
+</html>
